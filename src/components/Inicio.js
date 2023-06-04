@@ -43,7 +43,7 @@ function Singin() {
     localStorage.setItem('id', response['id']);
     localStorage.setItem('username', JSON.stringify (response['username']));
     localStorage.setItem('password', JSON.stringify (response['password']));
-    window.location.href= "/profile";
+    window.location.href= "/";
   })
 
 }else{
