@@ -18,7 +18,7 @@ export default function Profile() {
     localStorage.removeItem("id")
     localStorage.removeItem("username")
     localStorage.removeItem("password")
-    window.location.href='/profile'
+    window.location.href='/'
   }
 
   return (
