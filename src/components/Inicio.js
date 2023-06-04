@@ -61,7 +61,7 @@ function Singin() {
         <img className="pizza" src='https://ps.w.org/wppizza/assets/icon-256x256.png?rev=2498121' alt='pizza'></img>
       
         <Typography component='h1' variant='h4' style={{marginTop: '20px'}}>
-          Bienvenido
+          Bienvenidos
         </Typography>
 
         <form container className='form' noValidate onSubmit={submit}>
