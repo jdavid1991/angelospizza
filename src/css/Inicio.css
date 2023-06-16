@@ -1,16 +1,16 @@
-body{
-    background-image: url('https://previews.123rf.com/images/volyk/volyk1805/volyk180500068/101000181-sin-patrón-de-pizza-aislado-en-el-fondo-blanco.jpg');
-    background-size: cover;
-    
-}
+
 .conteinit {
+  background-image: url('https://previews.123rf.com/images/volyk/volyk1805/volyk180500068/101000181-sin-patrón-de-pizza-aislado-en-el-fondo-blanco.jpg');
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  
 }
 
 .paper{
+  margin-top: 65px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
