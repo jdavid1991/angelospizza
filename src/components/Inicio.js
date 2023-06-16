@@ -53,6 +53,8 @@ function Singin() {
   
   return (
     
+    <div className='conteinit'>
+      <div className='conteinit1'>
   <Grid  className = 'root'>
     <CssBaseline />
     <Grid item xs={12} md={5} component={Paper} elevation={24} square>
@@ -97,13 +99,16 @@ function Singin() {
               style={{background: '#12AA4F', fontWeight: 'bold'}}
             >
               Iniciar Sesion 
-            </Button>
-
+            </Button> <br></br> <br></br>
+            <a href='#'>Registrate</a><br></br>
+            <a href='#'>¿Olvidaste la contraseña?</a>
         </form>
+        
       </div>
     </Grid>
   </Grid>
-  
+  </div>
+  </div>
   )
 }
 
