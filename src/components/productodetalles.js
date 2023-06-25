@@ -3,6 +3,7 @@ import data from "./data";
 import '../css/productoitem.css';
 import { useParams } from 'react-router-dom';
 import Profile from './navbar';
+import Footer from './footer';
 
 
 const ProductosDetalle = (event) => {
@@ -31,6 +32,7 @@ const ProductosDetalle = (event) => {
         
     </div>
 
+    < Footer />
     </>
   )
   

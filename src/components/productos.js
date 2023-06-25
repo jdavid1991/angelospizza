@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../css/productos.css'
+import Footer from './footer';
 
 
 function Productos() {
@@ -143,7 +144,8 @@ function Productos() {
     </div>
     <div>
     </div>
-   
+    
+    < Footer />
     </>
     );
    

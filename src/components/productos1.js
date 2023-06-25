@@ -2,6 +2,7 @@ import React from 'react';
 import data from "./data";
 import { Link } from 'react-router-dom';
 import '../css/productos1.css'
+import Footer from './footer';
 
 const Productos1 = () => {
 
@@ -46,7 +47,7 @@ const Productos1 = () => {
       </div>
 
     </div>
-    
+
     </div>
        
     <h1>Menu</h1>
@@ -55,8 +56,7 @@ const Productos1 = () => {
       {productos}    
       </div>
     </div>
-    
-   
+
    </>
   )
 }

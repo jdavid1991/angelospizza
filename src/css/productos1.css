@@ -74,3 +74,39 @@ h1{
   margin-top: 20px;
   margin-left: 25px;
 }
+
+.conte-contactos{
+  margin: 0 ;
+  margin-top: 1300px;
+  padding: 100px;
+  background-color: black;
+}
+.conte-footer{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .conte-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .conte-contactos{
+    margin: 0;
+    margin-top: 250px;
+  }
+}
+
+.contactos,.Politicas, .nosotros{
+  color: white;
+  
+}
+
+.fb{
+  width: 40px;
+}
+
+.favicon{
+  display: flex;
+  gap: 20px;
+}

@@ -42,9 +42,9 @@ export default function Profile() {
         </Toolbar>
       </AppBar>
     </Box>
-    
     <Productos1 />
     <Productos />
+    
     </>
   );
 }
