@@ -30,6 +30,11 @@ const Footer = () =>{
     </div>
       </div>
     </div>
+
+    <div className="creator" style={{textAlign:'center'}}>
+    <h2>Diseñado y Desarrollado por <span style={{color: 'red'}}> Francia Johana Rodriguez </span> ® 2023 Universidad Distrital Francisco Jose De Caldas</h2>
+    </div>
+
   </footer>
   )
 }
