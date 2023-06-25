@@ -10,7 +10,7 @@ const Footer = () =>{
       <p>Telefono</p>
       <p>Cl 51 #18-22</p>
       <p>Bogotá, Colombia</p>
-      <p>ssisisis@angelospizza.com</p>
+      <p>Servicioalcliente@angelospizza.com</p>
     </div>
 
     <div className="Politicas">
