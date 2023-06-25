@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 #ListadoCarros {
   display: grid;
   gap: 50px;
@@ -28,4 +32,45 @@ h1{
   #conte #ListadoCarros{
     grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
   }
+}
+
+.img__pizza{
+  width: 100%;
+
+}
+.conte-prin{
+  max-width: 1200px;
+  margin: 60px auto auto;
+}
+
+@media (min-width: 768px) {
+  .contendor-hamburguesa{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.img__hamb{
+  display: flex;
+  justify-content: center;
+}
+
+.ingredientes{
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.lista{
+  line-height:  2 ;
+}
+
+.Order{
+  background-color: green;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 25px;
 }
