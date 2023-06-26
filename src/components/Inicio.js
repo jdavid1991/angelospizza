@@ -100,8 +100,8 @@ function Singin() {
             >
               Iniciar Sesion 
             </Button> <br></br> <br></br>
-            <a href='#'>Registrate</a><br></br>
-            <a href='#'>¿Olvidaste la contraseña?</a>
+            <a href='https://accounts.google.com/signup/v2/createaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=SignUp'>Registrate</a><br></br>
+            <a href='https://accounts.google.com/signin/v2/usernamerecovery?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&dsh=S-1962033130%3A1687738974823101&flowEntry=ServiceLogin&flowName=GlifWebSignIn&ifkv=Af_xneHPnzVCQTdebVIfaTTblJk5989SQecMVv86oqdSKddgBppR6cbjwux0AUW8DSB5jfZPiPAU&rip=1&service=mail'>¿Olvidaste la contraseña?</a>
         </form>
         
       </div>

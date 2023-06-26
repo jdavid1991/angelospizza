@@ -2,7 +2,6 @@ import React from 'react';
 import data from "./data";
 import { Link } from 'react-router-dom';
 import '../css/productos1.css'
-import Footer from './footer';
 
 const Productos1 = () => {
 
@@ -23,7 +22,7 @@ const Productos1 = () => {
   return (
     <>
     <div>
-    <img className='img__pizza' src="https://blog.pedidosya.cl/static/cdcd63c1397b1b0a12cec95462cabbc4/f34aa/pizzapepperoni.webp" alt="" srcset="" />
+    <img className='img__pizza' src="https://blog.pedidosya.cl/static/cdcd63c1397b1b0a12cec95462cabbc4/f34aa/pizzapepperoni.webp" alt="pizza" srcset="" />
     </div>
 
     <h1 style={{textAlign:'center'}}>! SIEMPRE PREPARAMOS NUESTROS PRODUCTOS CON <br /> LOS MEJORES INGREDIENTES !</h1>
@@ -32,7 +31,7 @@ const Productos1 = () => {
     
     <div className="contendor-hamburguesa">
       <div className='img__hamb'>
-      <img className='img__hamb1' src="https://media.istockphoto.com/id/1249806525/es/vector/ilustraci%C3%B3n-realista-de-elementos-voladores-de-hamburguesas-hamburguesa-de-comida-r%C3%A1pida.jpg?s=170667a&w=0&k=20&c=i8jU722R_HpvF0XWIdB5b2928AIAGzdFJYvFa9rySi8=" alt="" srcset="" />
+      <img className='img__hamb1' src="https://media.istockphoto.com/id/1249806525/es/vector/ilustraci%C3%B3n-realista-de-elementos-voladores-de-hamburguesas-hamburguesa-de-comida-r%C3%A1pida.jpg?s=170667a&w=0&k=20&c=i8jU722R_HpvF0XWIdB5b2928AIAGzdFJYvFa9rySi8=" alt="morepizza" srcset="" />
       </div>
 
       <div className='ingredientes' >

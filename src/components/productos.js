@@ -137,7 +137,7 @@ function Productos() {
         {ListadoFiltrado.map((item, index) => (
           <div className='car-item' key={index}>
             <div className='car-name'>{`${item.name}`}</div>
-            <img className='car-image'src={item.url}/>
+            <img className='car-image'src={item.url} alt='img'/>
           </div>
         ))}
       </div>

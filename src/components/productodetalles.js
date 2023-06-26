@@ -25,7 +25,7 @@ const ProductosDetalle = (event) => {
     <div id='contenedor' >
         <div id='detalles' > 
         <h1>{esteProducto.name}</h1>
-        <img src={esteProducto.url} width="200px" height="200px"/>
+        <img src={esteProducto.url} width="200px" height="200px" alt='detail'/>
         <h3>Price: {esteProducto.precio}</h3>
         <p>Detalle: {esteProducto.descripcion}</p>
         </div>

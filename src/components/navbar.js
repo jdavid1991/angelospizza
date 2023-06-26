@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+// import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Profile() {
   const [anchorEl] = React.useState(null);
@@ -30,7 +30,7 @@ return (
           aria-label="menu"
           sx={{ mr: 2 }}
         >
-          <img src='https://w7.pngwing.com/pngs/505/761/png-transparent-login-computer-icons-avatar-icon-monochrome-black-silhouette.png' style={{width:"50px"}}></img>
+          <img src='https://w7.pngwing.com/pngs/505/761/png-transparent-login-computer-icons-avatar-icon-monochrome-black-silhouette.png' style={{width:"50px"}} alt='si'></img>
         </IconButton>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Bienvenido {username}

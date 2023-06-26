@@ -22,9 +22,9 @@ const Footer = () =>{
     <div className="nosotros">
     <h2>ACERCA DE NOSOTROS</h2>
       <div className="favicon">
-      <img className="fb" src="https://www.shareicon.net/data/256x256/2015/08/29/92757_like_606x606.png"></img>
-      <img className="fb" src="https://cdn-icons-png.flaticon.com/256/1384/1384063.png"></img>
-      <img className="fb" src="https://cdn.iconscout.com/icon/free/png-256/free-whatsapp-2038531-1718516.png"></img>
+      <img className="fb" src="https://www.shareicon.net/data/256x256/2015/08/29/92757_like_606x606.png" alt="social-media"></img>
+      <img className="fb" src="https://cdn-icons-png.flaticon.com/256/1384/1384063.png" alt="social-media"></img>
+      <img className="fb" src="https://cdn.iconscout.com/icon/free/png-256/free-whatsapp-2038531-1718516.png" alt="social-media"></img>
       </div>
       
     </div>
