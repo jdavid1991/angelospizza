@@ -22,7 +22,7 @@ const Productos1 = () => {
   return (
     <>
     <div>
-    <img className='img__pizza' src="https://blog.pedidosya.cl/static/cdcd63c1397b1b0a12cec95462cabbc4/f34aa/pizzapepperoni.webp" alt="pizza" srcset="" />
+    <img className='img__pizza' src="https://previews.123rf.com/images/nitr/nitr1706/nitr170600064/80582356-pizza-con-jam%C3%B3n-salami-setas-con-ingredientes-para-cocinar-banner.jpg" alt="pizza" srcset="" />
     </div>
 
     <h1 style={{textAlign:'center'}}>! SIEMPRE PREPARAMOS NUESTROS PRODUCTOS CON <br /> LOS MEJORES INGREDIENTES !</h1>
