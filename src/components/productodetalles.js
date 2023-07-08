@@ -1,14 +1,23 @@
 import React from 'react';
 import data from "./data";
 import '../css/productoitem.css';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams} from 'react-router-dom';
 import Profile from './navbar';
 import Footer from './footer';
 
 
+
+
 const ProductosDetalle = (event) => {
 
-  const {productId}  = useParams();
+  const navigate = useNavigate()
+
+  const back = () =>{
+  navigate('/')
+}
+
+
+  const {productId} = useParams();
   const esteProducto = data.find(prod => prod.id === productId);
   
 
@@ -30,8 +39,12 @@ const ProductosDetalle = (event) => {
         <p>Detalle: {esteProducto.descripcion}</p>
         </div>
         
+        <div className='btback'>
+          <button onClick={back}>Atras</button>
+        </div>
+        
     </div>
-
+   
     < Footer />
     </>
   )

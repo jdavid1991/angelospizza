@@ -29,3 +29,16 @@
   border-radius: 9px;
   box-shadow: 3px 3px 19px black;
 }
+
+a{
+
+  text-decoration: none;
+}
+
+.registrar{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 15px;
+  font-weight: 700;
+}

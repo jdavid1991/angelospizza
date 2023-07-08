@@ -139,14 +139,19 @@ function Productos() {
             <div className='car-name'>{`${item.name}`}</div>
             <img className='car-image'src={item.url} alt='img'/>
           </div>
+          
         ))}
+        
       </div>
-    </div>
-    <div>
+      
     </div>
     
+    <div>
+  
+    </div>
     < Footer />
     </>
+    
     );
    
 }
