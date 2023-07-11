@@ -5,9 +5,6 @@ import { useNavigate, useParams} from 'react-router-dom';
 import Profile from './navbar';
 import Footer from './footer';
 
-
-
-
 const ProductosDetalle = (event) => {
 
   const navigate = useNavigate()
@@ -24,7 +21,7 @@ const ProductosDetalle = (event) => {
   if(!esteProducto){
     return (
         <div>
-          <h1>NO HAY PRODUCTOS CON ESE ID</h1>
+          <h1>NO HAY PRODUCTOS CON ESE ID.</h1>
         </div>
       )
   }
