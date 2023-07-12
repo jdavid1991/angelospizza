@@ -5,7 +5,7 @@ export default [
     url:
       "https://homeburgers.com/uploads/product/054bb48d12d44687b47c00b41ab31097/hs5.jpg",
     release_year: "Hamburguesa",
-    descripcion: "pizza de carne con doble porcion queso",
+    descripcion: "pizza de carne con doble porcion queso.",
     precio: "$6,50"
   },
   {
