@@ -25,8 +25,6 @@ export default [
     release_year: "Perro",
     descripcion: "pizza de carne con doble porcion queso",
     precio: "$6,50"
-
-
   },
   {
     id: "4",
