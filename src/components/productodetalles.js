@@ -28,6 +28,7 @@ const ProductosDetalle = (event) => {
   return (
     <>
     < Profile />
+    
     <div id='contenedor' >
         <div id='detalles' > 
         <h1>{esteProducto.name}</h1>
@@ -39,9 +40,8 @@ const ProductosDetalle = (event) => {
         <div className='btback'>
           <button onClick={back}>Atras</button>
         </div>
-        
+         
     </div>
-   
     < Footer />
     </>
   )

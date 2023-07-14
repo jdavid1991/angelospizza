@@ -1,23 +1,23 @@
 import React from 'react';
-import data from "./data";
-import { Link } from 'react-router-dom';
+// import data from "./data";
+// import { Link } from 'react-router-dom';
 import '../css/productos1.css'
 
 const Productos1 = () => {
 
-  const productos = data.map(productos => {
-    return (
-        <div key={productos.id}>
+  // const productos = data.map(productos => {
+  //   return (
+  //       <div key={productos.id}>
           
-          <div>
-          <h3><Link to={`/productos/${productos.id}`}>{productos.name}</Link></h3>
-          <img className='car-image' src={productos.url} alt='si'></img>
-          </div>
+  //         <div>
+  //         <h3><Link to={`/productos/${productos.id}`}>{productos.name}</Link></h3>
+  //         <img className='car-image' src={productos.url} alt='si'></img>
+  //         </div>
   
-        </div>
-    )
+  //       </div>
+  //   )
 
-  })
+  // })
 
   return (
     <>
@@ -42,19 +42,49 @@ const Productos1 = () => {
         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores possimus itaque vel.</li>
         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores possimus itaque vel.</li>
       </ul>
-      <button className='Order'>Ordenar Ahora</button>
+      <button className='Order'>ordenar ahora</button>
       </div>
 
     </div>
 
+    <div className='contepromo'>
+      <div className="promo1">
+      <div className="imagen">
+          <img className='img' src="https://images.unsplash.com/photo-1641244942334-ce44db547cec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="pizzaygas" width='200px' />
+          <p className='promop'>Promocion Especial</p>
+          <p className='promop'>ESTE VIERNES <br /> 15% OFF</p>
+          <p className='span'>$ 4.00</p>
+
+        </div>
+      </div>
+      <div className="promo1">
+      <div className="imagen">
+          <img className='img' src="https://images.unsplash.com/photo-1607013401178-f9c15ab575bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="pizzaygas" width='200px' />
+          <p className='promop'>Promocion Especial</p>
+          <p className='promop'>ESTE VIERNES <br /> 15% OFF</p>
+          <p className='span'>$ 4.00</p>
+
+        </div>
+       
+      </div>
+      <div className="promo1">
+      <div className="imagen">
+          <img className='img' src="https://images.unsplash.com/photo-1619740455993-9e612b1af08a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="pizzaygas" width='200px' />
+          <p className='promop'>Promocion Especial</p>
+          <p  className='promop' >ESTE VIERNES <br /> 15% OFF</p>
+          <p className='span'>$ 4.00</p>
+        </div>
+      </div>
+    </div>
+
+    <h1>Menu</h1>
     </div>
        
-    <h1>Menu</h1>
-    <div id='conte'>
+    {/* <div id='conte'>
       <div id='ListadoCarros'>
       {productos}    
       </div>
-    </div>
+    </div> */}
 
    </>
   )

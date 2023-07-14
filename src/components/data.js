@@ -35,7 +35,6 @@ export default [
     descripcion: "pizza de carne con doble porcion queso",
     precio: "$6,50"
 
-
   },
   {
     id: "5",
@@ -51,6 +50,24 @@ export default [
     name: "Pizza Pollo-champiñon",
     url: "https://images.hola.com/imagenes/cocina/recetas/20200123158802/receta-pizza-pollo-barbacoa/0-772-922/pizza-pollo-adobe-m.jpg",
     release_year: "Pizza",
+    descripcion: "pizza de carne con doble porcion queso",
+    precio: "$6,50"
+
+  },
+  {
+    id: "7",
+    name: "Perro Americano",
+    url: "https://media.istockphoto.com/id/538999394/es/foto/perrito-caliente-con-todas-las-fijaciones.jpg?s=1024x1024&w=is&k=20&c=sq46zNCx_iIuL0iDdASd8EO3hL52gWeK1OE44wuvPAs=",
+    release_year: "Perro",
+    descripcion: "pizza de carne con doble porcion queso",
+    precio: "$6,50"
+
+  },
+  {
+    id: "8",
+    name: "Perro Hawaiano",
+    url: "https://i0.wp.com/www.elantojo.co/wp-content/uploads/2023/06/ElAntojo_Snoopy-hawaiano.jpeg?fit=1920%2C1279&ssl=1",
+    release_year: "Perro",
     descripcion: "pizza de carne con doble porcion queso",
     precio: "$6,50"
 

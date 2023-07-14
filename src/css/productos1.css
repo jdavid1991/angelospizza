@@ -2,15 +2,14 @@ body{
   margin: 0;
 }
 
-#ListadoCarros {
+/* #ListadoCarros {
   display: grid;
-  gap: 50px;
   min-height: 200px;
   align-items: center;
   align-self: center;
   justify-content: center;
   grid-template-columns: repeat(3,1fr);
-}
+} */
 
 #conte{
   display: flex;
@@ -30,7 +29,7 @@ h1{
 
 @media (max-width: 768px) {
   #conte #ListadoCarros{
-    grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    grid-template-columns: 2fr; /* Una columna en pantallas pequeñas */
   }
 }
 
@@ -66,15 +65,20 @@ h1{
 }
 
 .Order{
-  background-color: green;
+  background-color: #12AA4F;
   border: none;
-  padding: 10px;
+  padding: 15px;
   color: white;
   border-radius: 5px;
   margin-top: 20px;
   margin-left: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
+.Order:hover{
+  background-color: green;
+}
 
 
 .conte-footer{
@@ -95,7 +99,7 @@ h1{
   }
   .conte-contactos{
     margin: 0;
-    margin-top: 250px;
+    margin-top: 340px;
     background-color: black;
   }
 }
@@ -112,4 +116,40 @@ h1{
 .favicon{
   display: flex;
   gap: 20px;
+}
+
+
+@media (min-width: 768px) {
+  .contepromo{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 90px;
+  }
+
+  .imagen{
+    border-radius: 8px;
+    background-color: #12AA4F;
+
+  }
+  .img{
+    border-radius: 8px 8px 0 0;
+    width: 300px;
+    height: 200px;
+  }
+  
+  .promop{
+    margin-top: -10px;
+    padding: 10px;
+    color: white;
+  }
+
+  .span{
+    text-align: right;
+    color: rgba(255, 0, 0, 0.621);
+    margin-top: -50px;
+    padding: 0 10px 10px;
+    font-weight: bold;
+    font-size: 15pt;
+  }
 }

@@ -48,26 +48,49 @@ body{
 
 #listadoCarros {
   display: grid;
-  gap: 20px;
+  gap: 40px;
   min-height: 480px;
   grid-template-columns: repeat(4, 1fr);
+
+}
+
+.car-name{
+  font-weight: bold;
+  padding-left: 15px;
+  color: black;
+  text-transform: none;
+}
+
+.pdetalle{
+  font-size: 12pt;
+  font-weight: lighter;
+  margin-top: 1px;
+}
+
+.cost{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -5px;
+  text-align: right;
+  padding-right: 10px;
+  color: red;
+
 }
 
 .car-item {
   display: flex;
-  height: 215px;
+  height: 270px;
   flex-direction: column;
-  align-items: center;
+  text-align: left;
   background-color: #D9D9D9;
   box-shadow: 1px 3px 3px #232322;
-  padding: 10px;
   gap: 5px;
+
 }
 
 .car-image{
   align-items: center;
-  width: 200px;
-  height: 160px;
+  width: 250px;
+  height: 180px;
 }
 
 button{
