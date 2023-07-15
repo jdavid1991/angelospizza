@@ -36,7 +36,7 @@ export default function Profile() {
           <img src='https://w7.pngwing.com/pngs/505/761/png-transparent-login-computer-icons-avatar-icon-monochrome-black-silhouette.png' style={{width:"50px"}} alt='avatar'></img >
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Bienvenido {username}
+            Bienvenido. {username}
           </Typography>
           <Button color="inherit" onClick={handleClose}>LOGOUT</Button>
         </Toolbar>
