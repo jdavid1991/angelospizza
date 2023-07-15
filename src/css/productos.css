@@ -46,12 +46,17 @@ body{
   transition: all 0.1s;
 }
 
-#listadoCarros {
-  display: grid;
-  gap: 40px;
-  min-height: 480px;
-  grid-template-columns: repeat(4, 1fr);
 
+
+@media (min-width: 200px) {
+  #listadoCarros {
+    display: grid;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    min-height: 480px;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .car-name{

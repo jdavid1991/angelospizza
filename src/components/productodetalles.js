@@ -40,9 +40,10 @@ const ProductosDetalle = (event) => {
         <div className='btback'>
           <button onClick={back}>Atras</button>
         </div>
-         
+        <div className="footer">
+     < Footer />
     </div>
-    < Footer />
+    </div>
     </>
   )
   

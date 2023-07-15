@@ -20,3 +20,16 @@ h3{
   margin-left: 2%;
   background-color: #12AA4F;
 }
+
+@media (min-width: 200px) {
+  .footer{
+    margin-top: -2100px;
+  }
+  
+}
+
+@media (min-width: 768px) {
+    .footer{
+      margin-top: -300px;
+    }
+}
