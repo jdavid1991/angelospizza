@@ -74,7 +74,6 @@ body{
 
 .cost{
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: -5px;
   text-align: right;
   padding-right: 10px;
   color: red;
@@ -83,7 +82,7 @@ body{
 
 .car-item {
   display: flex;
-  height: 270px;
+  height: 260px;
   flex-direction: column;
   text-align: left;
   background-color: #D9D9D9;
@@ -95,7 +94,7 @@ body{
 .car-image{
   align-items: center;
   width: 250px;
-  height: 169px;
+  height: 150px;
 }
 
 button{
