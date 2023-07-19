@@ -52,7 +52,7 @@ const Productos1 = () => {
       <div className="imagen">
           <img className='img' src="https://images.unsplash.com/photo-1641244942334-ce44db547cec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80" alt="pizzaygas" width='200px' />
           <p className='promop'>Promocion Especial</p>
-          <p className='promop'>ESTE VIERNES <br /> 15% OFF</p>
+          <p className='promop'>ESTE VIERNES <br/> 15% OFF</p>
           <p className='span'>$ 4.00</p>
 
         </div>
